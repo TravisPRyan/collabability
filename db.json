@@ -1,0 +1,54 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Seed json-server with preliminary data.",
+      "attention": false,
+      "dev": "Jenny Sanderson",
+      "date": "2019-12-31T10:16:10.145Z"
+    },
+    {
+      "id": 2,
+      "message": "Configure react app.",
+      "attention": false,
+      "dev": "Jenny Sanderson",
+      "date": "2019-12-31T15:18:02.356Z"
+    },
+    {
+      "id": 3,
+      "message": "Add write access to db for dev = Serge.",
+      "attention": true,
+      "dev": "Serge Serana",
+      "date": "2019-12-31T15:35:48.681Z"
+    },
+    {
+      "id": 4,
+      "message": "Grilled cheese sandwhiches for our afternoon meeting?",
+      "attention": true,
+      "dev": "Kaylie Edelman",
+      "date": "2019-12-31T19:46:35.541Z"
+    }
+  ],
+  "devs": [
+    {
+      "id": 1,
+      "firstName": "Jenny",
+      "lastName": "Sanderson"
+    },
+    {
+      "id": 2,
+      "firstName": "Kaylie",
+      "lastName": "Edelman"
+    },
+    {
+      "id": 3,
+      "firstName": "Serge",
+      "lastName": "Serana"
+    },
+    {
+      "firstName": "Tommy",
+      "lastName": "Davis",
+      "id": 4
+    }
+  ]
+}
