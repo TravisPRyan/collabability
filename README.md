@@ -1,2 +1,1 @@
-Push 3: Navbar and Search.
-Create and implement: Search/NavBar, Logs component.
+Push 4: LogItem. Create and implement LogItem component. Implement color shift for logs based on attention state. Added dependencies for timestamp formatting. Create and implement preloader component.
