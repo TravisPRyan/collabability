@@ -1,1 +1,1 @@
-Push 4: LogItem. Create and implement LogItem component. Implement color shift for logs based on attention state. Added dependencies for timestamp formatting. Create and implement preloader component.
+Push 5: Create and implement add button and add log modal.
