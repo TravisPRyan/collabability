@@ -1,1 +1,1 @@
-Push 5: Create and implement add button and add log modal.
+Push 6: Create and implement edit button and developer modal.
