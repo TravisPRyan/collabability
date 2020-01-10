@@ -1,1 +1,1 @@
-Push 7: Implement Redux, store and provider setup.
+Push 8: Implement logs reducer, actions and types.
