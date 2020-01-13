@@ -1,1 +1,1 @@
-Push 8: Implement logs reducer, actions and types.
+Push 9: Connect. Connect redux to a component.
