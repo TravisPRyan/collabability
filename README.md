@@ -1,1 +1,1 @@
-Push 9: Connect. Connect redux to a component.
+Push 10: Implement add logs.

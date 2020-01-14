@@ -1,32 +1,18 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Seed json-server with preliminary data.",
+      "message": "Remove seeded data from JSON-server.",
       "attention": false,
       "dev": "Jenny Sanderson",
-      "date": "2019-12-31T10:16:10.145Z"
+      "date": "2020-01-14T20:40:17.103Z",
+      "id": 1
     },
     {
-      "id": 2,
-      "message": "Configure react app.",
-      "attention": false,
-      "dev": "Jenny Sanderson",
-      "date": "2019-12-31T15:18:02.356Z"
-    },
-    {
-      "id": 3,
-      "message": "Add write access to db for dev = Serge.",
+      "message": "Add write access to DB for dev - Serge.",
       "attention": true,
       "dev": "Serge Serana",
-      "date": "2019-12-31T15:35:48.681Z"
-    },
-    {
-      "id": 4,
-      "message": "Grilled cheese sandwhiches for our afternoon meeting?",
-      "attention": true,
-      "dev": "Kaylie Edelman",
-      "date": "2019-12-31T19:46:35.541Z"
+      "date": "2020-01-14T20:40:50.062Z",
+      "id": 2
     }
   ],
   "devs": [
