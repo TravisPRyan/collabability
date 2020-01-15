@@ -1,1 +1,1 @@
-Push 10: Implement add logs.
+Push 10.1: Implement delete logs.
