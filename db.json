@@ -1,18 +1,18 @@
 {
   "logs": [
     {
-      "message": "Remove seeded data from JSON-server.",
+      "message": "rtyjrtyjrtyjrtyj",
       "attention": false,
       "dev": "Jenny Sanderson",
-      "date": "2020-01-14T20:40:17.103Z",
-      "id": 1
+      "date": "2020-01-16T22:30:59.998Z",
+      "id": 3
     },
     {
-      "message": "Add write access to DB for dev - Serge.",
-      "attention": true,
+      "message": "rtyjrtyjrtyjrtyj",
+      "attention": false,
       "dev": "Serge Serana",
-      "date": "2020-01-14T20:40:50.062Z",
-      "id": 2
+      "date": "2020-01-16T22:31:08.067Z",
+      "id": 4
     }
   ],
   "devs": [
