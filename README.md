@@ -1,4 +1,4 @@
-Push 13: Implement dev reducer, action, and component.
+Push 14: Implement developer list component. Connect JSON-server to dev list.
 
 Collabability  - Accountability logs for remote teams. Created in React with Redux for state management and JSON Server as a mock back-end.<br/>
 <br/>
