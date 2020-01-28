@@ -1,8 +1,8 @@
 Push 15: Implement add developer.
 
-Collabability - Accountability logs for remote teams. Created in React with Redux for state management and JSON Server as a mock back-end.
-
-## Usage:<br/>
+Collabability  - Accountability logs for remote teams. Created in React with Redux for state management and JSON Server as a mock back-end.<br/>
+<br/>
+##Usage:<br/>
 
 <br/>
 ### `npm install`<br/>
