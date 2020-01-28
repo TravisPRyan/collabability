@@ -1,13 +1,14 @@
-Push 14: Implement developer list component. Connect JSON-server to dev list.
+Push 15: Implement add developer.
 
 Collabability  - Accountability logs for remote teams. Created in React with Redux for state management and JSON Server as a mock back-end.<br/>
 <br/>
-Usage:<br/>
+##Usage:<br/>
+
 <br/>
-npm install<br/>
-npm run dev<br/>
+### `npm install`<br/>
+### `npm run dev`<br/>
 Runs the app with the backend JSON-Server<br/>
 Open http://localhost:3000 Server http://localhost:5000 db.json contains data<br/>
 <br/>
-npm run build<br/>
+### `npm run build`<br/>
 Builds the app for production to the build folder.

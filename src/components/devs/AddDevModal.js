@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import M from "materialize-css/dist/js/materialize.min.js";
+import { connect } from "react-redux";
+import PropTypes from "prop-types";
+import { addDev } from "../../actions/devActions";
 
-const AddDevModal = () => {
+const AddDevModal = ({ addDev }) => {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
 
@@ -9,7 +12,13 @@ const AddDevModal = () => {
     if (firstName === "" || lastName === "") {
       M.toast({ html: "Name is required field." });
     } else {
-      console.log(firstName, lastName);
+      addDev({
+        firstName,
+        lastName
+      });
+
+      M.toast({ html: `${firstName} ${lastName} added to developer list.` });
+
       //clear fields
       setFirstName("");
       setLastName("");
@@ -61,4 +70,8 @@ const AddDevModal = () => {
   );
 };
 
-export default AddDevModal;
+AddDevModal.propTypes = {
+  addDev: PropTypes.func.isRequired
+};
+
+export default connect(null, { addDev })(AddDevModal);
