@@ -26,6 +26,32 @@ export const getDevs = () => async dispatch => {
   }
 };
 
+//add dev
+export const addDev = dev => async dispatch => {
+  try {
+    setLoading();
+
+    const res = await fetch("/devs", {
+      method: "POST",
+      body: JSON.stringify(dev),
+      headers: {
+        "Content-Type": "application/json"
+      }
+    });
+    const data = await res.json();
+
+    dispatch({
+      type: ADD_DEV,
+      payload: data
+    });
+  } catch (error) {
+    dispatch({
+      type: DEVS_ERROR,
+      payload: error.response.statusText
+    });
+  }
+};
+
 //set loading to true
 export const setLoading = () => {
   return {
