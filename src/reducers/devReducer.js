@@ -31,6 +31,12 @@ export default (state = initialState, action) => {
         ...state,
         loading: true
       };
+    case DELETE_DEV:
+      return {
+        ...state,
+        devs: state.devs.filter(dev => dev.id !== action.payload),
+        loading: false
+      };
     case DEVS_ERROR:
       console.error(action.payload);
       return {

@@ -52,6 +52,27 @@ export const addDev = dev => async dispatch => {
   }
 };
 
+//delete dev
+export const deleteDev = id => async dispatch => {
+  try {
+    setLoading();
+
+    await fetch(`/devs/${id}`, {
+      method: "DELETE"
+    });
+
+    dispatch({
+      type: DELETE_DEV,
+      payload: id
+    });
+  } catch (error) {
+    dispatch({
+      type: DEVS_ERROR,
+      payload: error.response.statusText
+    });
+  }
+};
+
 //set loading to true
 export const setLoading = () => {
   return {
