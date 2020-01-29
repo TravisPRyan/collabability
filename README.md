@@ -1,8 +1,10 @@
 Push 16: Implement delete developer.
 
+
 Collabability - Accountability logs for remote teams. Created in React with Redux for state management and JSON Server as a mock back-end.
 
 Usage:<br/>
+
 
 <br/>
 npm install<br/>
